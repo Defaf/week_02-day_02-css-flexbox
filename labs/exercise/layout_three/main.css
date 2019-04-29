@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: gray;
+    height: 100px;
+}
+main{
+    background-color:yellowgreen;
+    height: 450px;
+    width: 50%;
+    justify-content: center;
+}
+aside{
+    background-color: burlywood;
+    height: 450px;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.side1{
+    background-color: orange;
+    width:33.3%;
+    justify-content: flex-start;
+}
+.side2{
+    background-color: orangered;
+    width:33.3%;
+    justify-content: center;
+}
+.side3{
+    background-color: orange;
+    width:33.3%;
+    justify-content: flex-end;
+}
+
+footer{
+    background-color: gray;
+    height: 90px;
+    padding:10px;
+}
+.container{
+    display:flex;
+    flex-direction: row; 
+}
